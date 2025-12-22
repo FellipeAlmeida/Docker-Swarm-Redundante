@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  api:
+    build: ./api
+    image: aluno/swarm-api:1.0
+    ports:
+      - "8080:3000"
+    deploy:
+      replicas: 3
+      update_config:
+        parallelism: 1
+        order: start-first
+      restart_policy:
+        condition: on-failure
+    networks:
+      - appnet
+
+  monitor:
+    image: alpine
+    command: sh -c "while true; do wget -qO- http://api:3000/info; echo; sleep 3; done"
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    driver: overlay
