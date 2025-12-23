@@ -77,40 +77,40 @@ http://SEU_IP_LOCAL/info
 Ao rodar o comando docker stack services redundante
 ```
 
-image.png
+<img width="814" height="71" alt="image" src="https://github.com/user-attachments/assets/b4cada23-8933-4e05-b97f-b1366f300010" />
+ng
 
 
 ```
 Ao rodar docker service ps redundante_api
 
-![alt text](image-1.png)
-
-
 ```
+
+<img width="1366" height="191" alt="image-1" src="https://github.com/user-attachments/assets/f344444b-9ebe-4a7d-89ca-7332184869c8" />
+
 
 ```
 Imagem do rota /info funcionando
 
-![alt text](image-2.png)
+<img width="1920" height="1080" alt="image-2" src="https://github.com/user-attachments/assets/c6165b97-f0e5-4320-ad4a-08dcb325d7e0" />
 
 Imagem da rota /info novamente, mas dessa vez com outro host (outro serviço da stack)
 
-![alt text](image-3.png)
+<img width="1920" height="1080" alt="image-3" src="https://github.com/user-attachments/assets/4922a6a9-e204-48e3-8691-a3eb9de9b211" />
 ```
 
 ```
 Logs do monitor, mostrando vários hosts.
 
-![alt text](image-4.png)
-
+<img width="1016" height="273" alt="image-4" src="https://github.com/user-attachments/assets/e9b0e18c-f357-489d-af37-aec4f0be9b19" />
 ```
 
 ```
 Antes de parar um container:
 
-![alt text](image-5.png)
+<img width="1372" height="310" alt="image-5" src="https://github.com/user-attachments/assets/6872728c-b097-4074-ba24-5fa2a35d5521" />
 
 Depois de parar:
 
-![alt text](image-6.png)
+<img width="1261" height="327" alt="image-6" src="https://github.com/user-attachments/assets/a92c410f-742f-462b-8f86-719a43cc0fed" />
 ```
