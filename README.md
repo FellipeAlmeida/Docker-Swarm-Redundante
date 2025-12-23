@@ -17,7 +17,12 @@ swarm-redundante
 - **Docker Swarm**
 
 ## Como Rodar
+
 ``` 
+# Clone o projeto
+git init
+git clone https://github.com/FellipeAlmeida/Docker-Swarm-Redundante
+
 # Inicialize o Docker Swarm com o seguinte comando:
 Docker swarm init
 
