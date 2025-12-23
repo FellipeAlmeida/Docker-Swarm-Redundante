@@ -70,3 +70,48 @@ docker swarm init --advertise-addr SEU_IP_LOCAL
 e acesse pelo seu ip
 http://SEU_IP_LOCAL/info
 ```
+
+# Resultados
+
+```
+Ao rodar o comando docker stack services redundante
+
+![alt text](image.png)
+
+esse comando mostra os serviços da stack redundante
+```
+
+```
+Ao rodar docker service ps redundante_api
+
+![alt text](image-1.png)
+
+
+```
+
+```
+Imagem do rota /info funcionando
+
+![alt text](image-2.png)
+
+Imagem da rota /info novamente, mas dessa vez com outro host (outro serviço da stack)
+
+![alt text](image-3.png)
+```
+
+```
+Logs do monitor, mostrando vários hosts.
+
+![alt text](image-4.png)
+
+```
+
+```
+Antes de parar um container:
+
+![alt text](image-5.png)
+
+Depois de parar:
+
+![alt text](image-6.png)
+```
