@@ -59,3 +59,14 @@ Arquivo Dockerfile que faz uma sequência de comandos. Ele faz:
 - no monitor uso a imagem do alpine e rodo um comando que roda a api /info a cada 3 segundos (para monitoramento)
 - crio a rede appnet
 
+# Como acessar? 
+
+```
+localhost:8080
+
+se não funcionar adicione o ip da sua máquina e tente novamente, dessa forma:
+docker swarm init --advertise-addr SEU_IP_LOCAL
+
+e acesse pelo seu ip
+http://SEU_IP_LOCAL/info
+```
