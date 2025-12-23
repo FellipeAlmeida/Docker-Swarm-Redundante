@@ -1,12 +1,14 @@
-# Atividade de Ambiente de Desenvolvimento de Software S2
+# Atividade de Ambiente de Desenvolvimento de Software
 
 ## Estrutura do Projeto
+```
 swarm-redundante
     api
         app.js
         Dockerfile
         package.json
     docker-compose.yml
+```
 
 ## Tecnologias do Projeto
 - **Javascript**
