@@ -75,11 +75,10 @@ http://SEU_IP_LOCAL/info
 
 ```
 Ao rodar o comando docker stack services redundante
+```
 
 image.png
 
-esse comando mostra os serviços da stack redundante
-```
 
 ```
 Ao rodar docker service ps redundante_api
