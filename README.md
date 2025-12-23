@@ -91,26 +91,31 @@ Ao rodar docker service ps redundante_api
 
 ```
 Imagem do rota /info funcionando
+```
 
 <img width="1920" height="1080" alt="image-2" src="https://github.com/user-attachments/assets/c6165b97-f0e5-4320-ad4a-08dcb325d7e0" />
 
+```
 Imagem da rota /info novamente, mas dessa vez com outro host (outro serviço da stack)
+```
 
 <img width="1920" height="1080" alt="image-3" src="https://github.com/user-attachments/assets/4922a6a9-e204-48e3-8691-a3eb9de9b211" />
-```
+
 
 ```
 Logs do monitor, mostrando vários hosts.
+```
 
 <img width="1016" height="273" alt="image-4" src="https://github.com/user-attachments/assets/e9b0e18c-f357-489d-af37-aec4f0be9b19" />
-```
+
 
 ```
 Antes de parar um container:
-
+```
 <img width="1372" height="310" alt="image-5" src="https://github.com/user-attachments/assets/6872728c-b097-4074-ba24-5fa2a35d5521" />
 
-Depois de parar:
-
-<img width="1261" height="327" alt="image-6" src="https://github.com/user-attachments/assets/a92c410f-742f-462b-8f86-719a43cc0fed" />
 ```
+Depois de parar:
+```
+<img width="1261" height="327" alt="image-6" src="https://github.com/user-attachments/assets/a92c410f-742f-462b-8f86-719a43cc0fed" />
+
