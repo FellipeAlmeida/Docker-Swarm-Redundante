@@ -78,8 +78,6 @@ Ao rodar o comando docker stack services redundante
 ```
 
 <img width="814" height="71" alt="image" src="https://github.com/user-attachments/assets/b4cada23-8933-4e05-b97f-b1366f300010" />
-ng
-
 
 ```
 Ao rodar docker service ps redundante_api
